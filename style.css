@@ -1,0 +1,82 @@
+/*Geral*/
+body {
+    background: #efefef;
+}
+
+/*Home*/
+.img-banner {
+    width: 100%;
+    background-image: url(http://s30.postimg.org/x0ne0p5wx/bootsrap.png);
+    height: 405px;
+    background-position: center;
+}
+
+.carousel-caption {
+    background: #efefef99;
+    border-radius: 20px;
+}
+
+.card-img-top {
+    max-height: 198px;
+}
+
+.container {
+    margin-bottom: 4rem;
+}
+
+.link {
+    color: #000000;
+    font-size: larger;
+}
+
+.link:hover {
+    color: #555555;
+}
+
+.text-footer {
+    background: #000000;
+}
+
+/*Footer*/
+.icon-socialMedia {
+    height: 30px;
+}
+
+/*Preços*/
+.validationMessage {
+    color: red;
+    font-size: 14px;
+}
+
+.pricing {
+    margin-top: 2rem;
+}
+
+.list-item {
+    font-size: 14px;
+    line-height: 3rem;
+    margin-left: 10px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.icon-check {
+    height: 20px;
+}
+
+/*Mobile*/
+@media screen and (max-width: 768px) {
+
+    /*Home*/
+    .img-banner {
+        height: 200px;
+    }
+
+    /*Sobre*/
+    .sobre-nos {
+        padding: 20px
+    }
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Travel.com - Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet">
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Travel.com</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sobre/sobre.html">Sobre Nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pricing/pricing.html">Planos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="https://cinthetur.com.br/cinthetur/wp-content/uploads/2019/04/Banner-Gramado.jpg"
+                    class="img-banner d-block w-100 img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h4>Gramado</h4>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://t4logistica.com.br/site/wp-content/uploads/2019/04/banner-rio.jpg"
+                    class="img-banner d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Rio de Janeiro</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://revistaazul.voeazul.com.br/wp-content/uploads/2020/06/destaque_fernando_de_noronha.jpg"
+                    class="img-banner d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Fernando de Noronha</h5>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-4 fw-normal">Viaje para o destino dos seus sonhos</h1>
+        <p class="fs-5 text-muted">Conheça nossos pacotes com os mais variados tipos de destinos de viagens</p>
+        <p class="fs-5 text-muted"><a class="link" href="./pricing/pricing.html">Conheça nossos planos de viagens</a>
+        </p>
+    </div>
+    <div class="container">
+        <div class="card-group">
+            <div class="card">
+                <img src="https://www.submarinoviagens.com.br/bora-nessa-trip/wp-content/uploads/2020/10/nordeste-praias-bonitas.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Destinos Nacionais</h5>
+                    <p class="card-text">Viaje para os melhores destinos nacionais</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://www.guiadasemana.com.br/contentFiles/image/2017/02/FEA/principal/53976_w840h0_1487072935shutterstock-517722034.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Destinos Internacionais</h5>
+                    <p class="card-text">Viaje para os melhores destinos internacionais</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://static3.depositphotos.com/1003352/170/i/600/depositphotos_1703463-stock-photo-mountain-lake.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Use seus pontos</h5>
+                    <p class="card-text">Na Travel.com você usa seus pontos para resgatar em viagens</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer class="bg-dark text-center text-white">
+    <div class="container p-4 pb-0">
+        <section class="mb-4">
+            <div class="btn btn-outline-light btn-floating m-1">
+                <img class="icon-socialMedia" src="https://img.icons8.com/ios/500/facebook--v1.png" role="button">
+            </div>
+
+            <div class="btn btn-outline-light btn-floating m-1">
+                <img class="icon-socialMedia" src="https://image.flaticon.com/icons/png/512/1384/1384017.png"
+                    role="button">
+            </div>
+
+            <div class="btn btn-outline-light btn-floating m-1">
+                <img class="icon-socialMedia" src="https://image.flaticon.com/icons/png/512/87/87390.png"
+                    role="button"><i class="fab fa-instagram">
+            </div>
+        </section>
+    </div>
+
+    <div class="text-center p-3 text-footer">
+        © 2021 Copyright: Travel.com
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.1/knockout-latest.js"
+    integrity="sha512-2AL/VEauKkZqQU9BHgnv48OhXcJPx9vdzxN1JrKDVc4FPU/MEE/BZ6d9l0mP7VmvLsjtYwqiYQpDskK9dG8KBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/knockout-validation/2.0.4/knockout.validation.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.11.2/jquery.mask.min.js"
+    integrity="sha512-Y/GIYsd+LaQm6bGysIClyez2HGCIN1yrs94wUrHoRAD5RSURkqqVQEU6mM51O90hqS80ABFTGtiDpSXd2O05nw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript" src="./script.js"></script>
+
+</html>
